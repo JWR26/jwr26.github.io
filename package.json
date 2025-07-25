@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "github-build": "ng build --base-href 'https://github.com/JWR26/jwr26.github.io'"
   },
   "prettier": {
     "overrides": [
